@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F63A2031242CBD2A001E203E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63A2030242CBD2A001E203E /* LoginViewController.swift */; };
+		F648CE1F242CA91A00433C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648CE1E242CA91A00433C40 /* AppDelegate.swift */; };
+		F648CE23242CA91A00433C40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F648CE22242CA91A00433C40 /* ViewController.swift */; };
+		F648CE26242CA91A00433C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F648CE24242CA91A00433C40 /* Main.storyboard */; };
+		F648CE28242CA91B00433C40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F648CE27242CA91B00433C40 /* Assets.xcassets */; };
+		F648CE2B242CA91B00433C40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F648CE29242CA91B00433C40 /* LaunchScreen.storyboard */; };
+		F69D0FCD243F639600DB81E0 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69D0FCC243F639600DB81E0 /* Friend.swift */; };
+		F69D0FD7243F647E00DB81E0 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69D0FD6243F647E00DB81E0 /* Groups.swift */; };
+		F69D0FD9243F6A9700DB81E0 /* MyGroupsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69D0FD8243F6A9700DB81E0 /* MyGroupsTableVC.swift */; };
+		F69D0FDB243F6AC200DB81E0 /* AllGroupsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69D0FDA243F6AC200DB81E0 /* AllGroupsTableVC.swift */; };
+		F69D0FDE243F6B0000DB81E0 /* FriendListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69D0FDD243F6B0000DB81E0 /* FriendListTableVC.swift */; };
+		F6F4BA042443986E0073FA44 /* AllGroupsTV_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4BA032443986E0073FA44 /* AllGroupsTV_Cell.swift */; };
+		F6F4BA09244443670073FA44 /* FriendPhotoCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4BA08244443670073FA44 /* FriendPhotoCollectionVC.swift */; };
+		F6F4BA0B244444570073FA44 /* FriendPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4BA0A244444570073FA44 /* FriendPhotoCollectionViewCell.swift */; };
+		F6F4BA0D244457030073FA44 /* FriendListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F4BA0C244457030073FA44 /* FriendListCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F63A2030242CBD2A001E203E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F648CE1B242CA91A00433C40 /* L1 - HW - Farkhshatov Eduard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L1 - HW - Farkhshatov Eduard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F648CE1E242CA91A00433C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F648CE22242CA91A00433C40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F648CE25242CA91A00433C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F648CE27242CA91B00433C40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F648CE2A242CA91B00433C40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F648CE2C242CA91B00433C40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69D0FCC243F639600DB81E0 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		F69D0FD6243F647E00DB81E0 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		F69D0FD8243F6A9700DB81E0 /* MyGroupsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupsTableVC.swift; sourceTree = "<group>"; };
+		F69D0FDA243F6AC200DB81E0 /* AllGroupsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsTableVC.swift; sourceTree = "<group>"; };
+		F69D0FDD243F6B0000DB81E0 /* FriendListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTableVC.swift; sourceTree = "<group>"; };
+		F6F4BA032443986E0073FA44 /* AllGroupsTV_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupsTV_Cell.swift; sourceTree = "<group>"; };
+		F6F4BA08244443670073FA44 /* FriendPhotoCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendPhotoCollectionVC.swift; path = "L1 - HW - Farkhshatov Eduard/FriendPhotoCollectionVC.swift"; sourceTree = SOURCE_ROOT; };
+		F6F4BA0A244444570073FA44 /* FriendPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		F6F4BA0C244457030073FA44 /* FriendListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F648CE18242CA91A00433C40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F648CE12242CA91A00433C40 = {
+			isa = PBXGroup;
+			children = (
+				F648CE1D242CA91A00433C40 /* L1 - HW - Farkhshatov Eduard */,
+				F648CE1C242CA91A00433C40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F648CE1C242CA91A00433C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F648CE1B242CA91A00433C40 /* L1 - HW - Farkhshatov Eduard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F648CE1D242CA91A00433C40 /* L1 - HW - Farkhshatov Eduard */ = {
+			isa = PBXGroup;
+			children = (
+				F69D0FD5243F646200DB81E0 /* FriendPhoto */,
+				F69D0FD4243F645800DB81E0 /* AllGroups */,
+				F69D0FD3243F644F00DB81E0 /* MyGroups */,
+				F69D0FD1243F63F000DB81E0 /* FriendsList */,
+				F6F4BA072444431D0073FA44 /* FriendPhotos */,
+				F648CE27242CA91B00433C40 /* Assets.xcassets */,
+				F648CE1E242CA91A00433C40 /* AppDelegate.swift */,
+				F648CE22242CA91A00433C40 /* ViewController.swift */,
+				F648CE24242CA91A00433C40 /* Main.storyboard */,
+				F63A2030242CBD2A001E203E /* LoginViewController.swift */,
+				F648CE29242CA91B00433C40 /* LaunchScreen.storyboard */,
+				F648CE2C242CA91B00433C40 /* Info.plist */,
+				F69D0FD6243F647E00DB81E0 /* Groups.swift */,
+				F69D0FCC243F639600DB81E0 /* Friend.swift */,
+			);
+			path = "L1 - HW - Farkhshatov Eduard";
+			sourceTree = "<group>";
+		};
+		F69D0FD1243F63F000DB81E0 /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+				F69D0FDD243F6B0000DB81E0 /* FriendListTableVC.swift */,
+				F6F4BA0C244457030073FA44 /* FriendListCell.swift */,
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		F69D0FD3243F644F00DB81E0 /* MyGroups */ = {
+			isa = PBXGroup;
+			children = (
+				F69D0FD8243F6A9700DB81E0 /* MyGroupsTableVC.swift */,
+			);
+			path = MyGroups;
+			sourceTree = "<group>";
+		};
+		F69D0FD4243F645800DB81E0 /* AllGroups */ = {
+			isa = PBXGroup;
+			children = (
+				F69D0FDA243F6AC200DB81E0 /* AllGroupsTableVC.swift */,
+				F6F4BA032443986E0073FA44 /* AllGroupsTV_Cell.swift */,
+			);
+			path = AllGroups;
+			sourceTree = "<group>";
+		};
+		F69D0FD5243F646200DB81E0 /* FriendPhoto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FriendPhoto;
+			sourceTree = "<group>";
+		};
+		F6F4BA072444431D0073FA44 /* FriendPhotos */ = {
+			isa = PBXGroup;
+			children = (
+				F6F4BA08244443670073FA44 /* FriendPhotoCollectionVC.swift */,
+				F6F4BA0A244444570073FA44 /* FriendPhotoCollectionViewCell.swift */,
+			);
+			path = FriendPhotos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F648CE1A242CA91A00433C40 /* L1 - HW - Farkhshatov Eduard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F648CE2F242CA91B00433C40 /* Build configuration list for PBXNativeTarget "L1 - HW - Farkhshatov Eduard" */;
+			buildPhases = (
+				F648CE17242CA91A00433C40 /* Sources */,
+				F648CE18242CA91A00433C40 /* Frameworks */,
+				F648CE19242CA91A00433C40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "L1 - HW - Farkhshatov Eduard";
+			productName = "L1 - HW - Farkhshatov Eduard";
+			productReference = F648CE1B242CA91A00433C40 /* L1 - HW - Farkhshatov Eduard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F648CE13242CA91A00433C40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Эдуард Фархшатов";
+				TargetAttributes = {
+					F648CE1A242CA91A00433C40 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F648CE16242CA91A00433C40 /* Build configuration list for PBXProject "L1 - HW - Farkhshatov Eduard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F648CE12242CA91A00433C40;
+			productRefGroup = F648CE1C242CA91A00433C40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F648CE1A242CA91A00433C40 /* L1 - HW - Farkhshatov Eduard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F648CE19242CA91A00433C40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F648CE2B242CA91B00433C40 /* LaunchScreen.storyboard in Resources */,
+				F648CE28242CA91B00433C40 /* Assets.xcassets in Resources */,
+				F648CE26242CA91A00433C40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F648CE17242CA91A00433C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63A2031242CBD2A001E203E /* LoginViewController.swift in Sources */,
+				F6F4BA0B244444570073FA44 /* FriendPhotoCollectionViewCell.swift in Sources */,
+				F6F4BA042443986E0073FA44 /* AllGroupsTV_Cell.swift in Sources */,
+				F648CE23242CA91A00433C40 /* ViewController.swift in Sources */,
+				F648CE1F242CA91A00433C40 /* AppDelegate.swift in Sources */,
+				F69D0FDB243F6AC200DB81E0 /* AllGroupsTableVC.swift in Sources */,
+				F69D0FD9243F6A9700DB81E0 /* MyGroupsTableVC.swift in Sources */,
+				F6F4BA0D244457030073FA44 /* FriendListCell.swift in Sources */,
+				F69D0FCD243F639600DB81E0 /* Friend.swift in Sources */,
+				F6F4BA09244443670073FA44 /* FriendPhotoCollectionVC.swift in Sources */,
+				F69D0FD7243F647E00DB81E0 /* Groups.swift in Sources */,
+				F69D0FDE243F6B0000DB81E0 /* FriendListTableVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F648CE24242CA91A00433C40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F648CE25242CA91A00433C40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F648CE29242CA91B00433C40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F648CE2A242CA91B00433C40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F648CE2D242CA91B00433C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F648CE2E242CA91B00433C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F648CE30242CA91B00433C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F338VGT4N3;
+				INFOPLIST_FILE = "L1 - HW - Farkhshatov Eduard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduard-Farkhshatov.L1---HW---Farkhshatov-Eduard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F648CE31242CA91B00433C40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F338VGT4N3;
+				INFOPLIST_FILE = "L1 - HW - Farkhshatov Eduard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eduard-Farkhshatov.L1---HW---Farkhshatov-Eduard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F648CE16242CA91A00433C40 /* Build configuration list for PBXProject "L1 - HW - Farkhshatov Eduard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F648CE2D242CA91B00433C40 /* Debug */,
+				F648CE2E242CA91B00433C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F648CE2F242CA91B00433C40 /* Build configuration list for PBXNativeTarget "L1 - HW - Farkhshatov Eduard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F648CE30242CA91B00433C40 /* Debug */,
+				F648CE31242CA91B00433C40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F648CE13242CA91A00433C40 /* Project object */;
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C20DA455-B7C9-45C7-A59A-E33EBFCE85ED"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF14CB1D-0817-4DF4-90BA-7EF572E0B565"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "L1 - HW - Farkhshatov Eduard/FriendPhotoCollectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B78C46B-6E07-4237-8C2A-F16E956A3A41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "L1 - HW - Farkhshatov Eduard/FriendPhotoCollectionVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "FriendPhotoCollectionVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "0B78C46B-6E07-4237-8C2A-F16E956A3A41 - 3243528a698ce732"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC.friendAllFotos.getter : Swift.Optional&lt;L1___HW___Farkhshatov_Eduard.Friend&gt;"
+                  moduleName = "L1 - HW - Farkhshatov Eduard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardfarkhshatov/Desktop/ios%20interface/April/L1%20-%20HW%20-%20Farkhshatov%20Eduard/FriendPhotoCollectionVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "167">
+               </Location>
+               <Location
+                  uuid = "0B78C46B-6E07-4237-8C2A-F16E956A3A41 - d2376dcfd558ef5a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC.friendAllFotos.setter : Swift.Optional&lt;L1___HW___Farkhshatov_Eduard.Friend&gt;"
+                  moduleName = "L1 - HW - Farkhshatov Eduard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardfarkhshatov/Desktop/ios%20interface/April/L1%20-%20HW%20-%20Farkhshatov%20Eduard/FriendPhotoCollectionVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "259">
+               </Location>
+               <Location
+                  uuid = "0B78C46B-6E07-4237-8C2A-F16E956A3A41 - c00c3e4ce7f7c138"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC.friendAllFotos.modify : Swift.Optional&lt;L1___HW___Farkhshatov_Eduard.Friend&gt;"
+                  moduleName = "L1 - HW - Farkhshatov Eduard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardfarkhshatov/Desktop/ios%20interface/April/L1%20-%20HW%20-%20Farkhshatov%20Eduard/FriendPhotoCollectionVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "0B78C46B-6E07-4237-8C2A-F16E956A3A41 - 854a00de012c003d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC.friendAllFotos.modify : Swift.Optional&lt;L1___HW___Farkhshatov_Eduard.Friend&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "L1 - HW - Farkhshatov Eduard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardfarkhshatov/Desktop/ios%20interface/April/L1%20-%20HW%20-%20Farkhshatov%20Eduard/FriendPhotoCollectionVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "0B78C46B-6E07-4237-8C2A-F16E956A3A41 - e24c5d0fcfe0edfe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC.init(collectionViewLayout: __C.UICollectionViewLayout) -&gt; L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC"
+                  moduleName = "L1 - HW - Farkhshatov Eduard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardfarkhshatov/Desktop/ios%20interface/April/L1%20-%20HW%20-%20Farkhshatov%20Eduard/FriendPhotoCollectionVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "63">
+               </Location>
+               <Location
+                  uuid = "0B78C46B-6E07-4237-8C2A-F16E956A3A41 - d9e9c3661d0b0151"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC"
+                  moduleName = "L1 - HW - Farkhshatov Eduard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardfarkhshatov/Desktop/ios%20interface/April/L1%20-%20HW%20-%20Farkhshatov%20Eduard/FriendPhotoCollectionVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "0B78C46B-6E07-4237-8C2A-F16E956A3A41 - 8d39615c2cdc96e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;L1___HW___Farkhshatov_Eduard.FriendPhotoCollectionVC&gt;"
+                  moduleName = "L1 - HW - Farkhshatov Eduard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/eduardfarkhshatov/Desktop/ios%20interface/April/L1%20-%20HW%20-%20Farkhshatov%20Eduard/FriendPhotoCollectionVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
