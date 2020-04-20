@@ -12,4 +12,6 @@ class FriendListCell: UITableViewCell {
 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var avatar: UIImageView!
+    @IBOutlet weak var shadow: ShadowView!
+    
 }

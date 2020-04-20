@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 13.0, *)
 class FriendPhotoCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var friendPhoto: UIImageView!
