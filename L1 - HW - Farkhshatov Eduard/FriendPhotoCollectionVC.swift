@@ -10,6 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
+@available(iOS 13.0, *)
 class FriendPhotoCollectionVC: UICollectionViewController {
     
     var friend: Friend!
@@ -33,5 +34,13 @@ class FriendPhotoCollectionVC: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FriendPhotoCollectionViewCell", for: indexPath) as! FriendPhotoCollectionViewCell
         cell.friendPhoto.image = friend.photos[indexPath.row]
         return cell
+    }
+}
+
+@available(iOS 13.0, *)
+extension FriendPhotoCollectionVC: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: (view.frame.size.width / 1) - 1,
+                      height: (view.frame.size.width / 1) - 1)
     }
 }
